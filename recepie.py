@@ -1,249 +1,143 @@
 
 
-#update 09/08
-
-
-def submenu_option_1():             #1-47
-    print("You selected CheeseBurgers with fries.")
-    file_name = 'file1.txt' 
-    try:
-        with open(file_name, 'r') as file:
-            lines = file.readlines()
-            # Print lines 1 to 14 without line numbers
-            for line in lines[:45]:
-                print(line.strip())
-    except FileNotFoundError:
-        print(f"File '{file_name}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-def submenu_option_2():         #48-91
-    print("You selected HotDogs with chili")
-
-def submenu_option_3():         #95-120
-    print("You selected Steak with mashed potatoes")
-
-def submenu_option_4():         #146-203
-    print("You selected Lemon Pepper Wings with waffle fries")
-
-def submenu_option_5():         #206-258
-    print("You selected Chicken fried Steak")
-
-def submenu_option_6():                          
-    print("You selected Baja shrimp tacos")
-    file_name = 'file2.txt' 
-    try:
-        with open(file_name, 'r') as file:
-            lines = file.readlines()
-            # Print lines 15 to 29 without line numbers
-            for line in lines[14:29]:
-                print(line.strip())
-    except FileNotFoundError:
-        print(f"File '{file_name}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-def submenu_option_7():
-    print("You selected Classic Tex-Mex burriot")
-
-def submenu_option_8():
-    print("You selected Ground Beef nachos")
-    # Add your code here for Sub-option 1.8
-
-def submenu_option_9():
-    print("You selected spricy pork Chimichanga")
-    # Add your code here for Sub-option 1.9
-
-def submenu_option_10():
-    print("You selected Fajita chicken plate with rice/beans")
-    # Add your code here for Sub-option 1.10
-
-def submenu_option_11():
-    print("You selected Pepperoni Pizza")
-    # Add your code here for Sub-option 1.11
-
-def submenu_option_12():
-    print("You selected Spaghetti and Meatballs")
-    # Add your code here for Sub-option 1.12
-
-def submenu_option_13():
-    print("You selected Lasagna")
-    # Add your code here for Sub-option 1.13
-
-def submenu_option_14():
-    print("You selected Chicken Alfedo")
-    # Add your code here for Sub-option 1.14
-
-def submenu_option_15():
-    print("You selected chicken tortellini")
-    # Add your code here for Sub-option 1.15
-
-def submenu_option_16():
-    print("You selected sushi")
-    # Add your code here for Sub-option 1.16
-
-def submenu_option_17():
-    print("You selected stir fry")
-    # Add your code here for Sub-option 1.17
-
-def submenu_option_18():
-    print("You selected chop suey")
-    # Add your code here for Sub-option 1.18
-
-def submenu_option_19():
-    print("You selected shrimp fried rice")
-    # Add your code here for Sub-option 1.19
-
-def submenu_option_20():
-    print("You selected vegan steamed dumplings")
-    # Add your code here for Sub-option 1.20
-
-def submenu_option_21():
-    print("You selected cajun chicken pasta")
-    # Add your code here for Sub-option 1.21
-
-def submenu_option_22():
-    print("You selected pumpkin bread")
-    # Add your code here for Sub-option 1.22
-
-def submenu_option_23():
-    print("You selected japanese fluffy pancakes")
-    # Add your code here for Sub-option 1.23
-
-def submenu_option_24():
-    print("You selected mango lassi")
-    # Add your code here for Sub-option 1.24
-
-def submenu_option_25():
-    print("You selected butter chicken with rice")
-    # Add your code here for Sub-option 1.25
+#     UPDATED: 09/09   rewrote code so that its simpler to read
+#    -stopped at American menu (1) , option 3
 
 
 
+#main menu
+menu = {}
+menu['1'] = "American"
+menu['2'] = "Tex-Mex"
+menu['3'] = "Italian"
+menu['4'] = "Asian"
+menu['5'] = "Surprise me"
 
+# Define the American menu
+americanMenu = {}
+americanMenu['1'] = "CheeseBurgers with fries"
+americanMenu['2'] = "HotDogs with chili"
+americanMenu['3'] = "Steak with mashed potatoes"
+americanMenu['4'] = "Lemon Pepper Wings with waffle fries"
+americanMenu['5'] = "Chicken fried Steak"
+americanMenu['6'] = "Go Back"# Option to go back to the previous menu
 
+while True:
+    options = list(menu.keys())
+    options.sort()
+    print("Welcome to this recepie generator select one of the following to get started(1-6)")
+    for entry in options:
+        print(entry, menu[entry])
+    print("Type out 'quit' to end program")
 
+    selection = input("what are you craving today? ")
 
-def display_submenu(submenu_title, submenu_options, submenu_functions):
-    print(f"Submenu for {submenu_title}:")
-    for key, value in submenu_options.items():
-        print(f"{key}. {value}")
+    if selection == '1':                                #American menu selected
+        print("\nAmerican")
+        # Display the American menu
+        while True:
+            americanOptions = list(americanMenu.keys())
+            americanOptions.sort()
 
-    sub_choice = input(f"Select a sub-option (1-5) for {submenu_title} or 'b' to go back to the previous menu: ")
+            for entry in americanOptions:
+                print(entry, americanMenu[entry])
 
-    if sub_choice == 'b':
-        return
+            americanSelection = input("\nPlease Select an option for American:").lower()
 
-    selected_function = submenu_functions.get(sub_choice)
-
-    if selected_function:
-        selected_function()
-    else:
-        print("Invalid sub-option.")
-
-def display_menu(menu):
-    while True:
-        print("\nWhat would you like to cook today? \nThe difficulty of these dishes are in order from simple to complex")
-        for key, value in menu.items():
-            print(f"{key}. {value['title']}")
-
-        choice = input("Select an option (1-5) or 'q' to quit: ")
-
-        if choice == 'q':
-            break
-
-        submenu = menu.get(choice)
-
-        if submenu:
-            submenu_title = submenu['title']
-            submenu_options = submenu['submenu']
-            submenu_functions = {
-                '1': submenu_option_1,
-                '2': submenu_option_2,
-                '3': submenu_option_3,
-                '4': submenu_option_4,
-                '5': submenu_option_5,
-                '6': submenu_option_6,
-                '7': submenu_option_7,
-                '8': submenu_option_8,
-                '9': submenu_option_9,
-                '10': submenu_option_10,
-                '11': submenu_option_11,
-                '12': submenu_option_12,
-                '13': submenu_option_13,
-                '14': submenu_option_14,
-                '15': submenu_option_15,
-                '16': submenu_option_16,
-                '17': submenu_option_17,
-                '18': submenu_option_18,
-                '19': submenu_option_19,
-                '20': submenu_option_20,
-                '21': submenu_option_21,
-                '22': submenu_option_22,
-                '23': submenu_option_23,
-                '24': submenu_option_24,
-                '25': submenu_option_25,
-    }
-
+            if americanSelection == '1':#cheeseburger/fries
+                print("\n")
+                file_name = 'file1.txt'
+                try:
+                    with open(file_name, 'r') as file:
+                        lines = file.readlines()
+                # Print lines from txt file w/o line numbers
+                        for line in lines[:46]:
+                            print(line.strip())
+                except FileNotFoundError:
+                    print(f"File '{file_name}' not found.")
+                except Exception as e:
+                    print(f"An error occurred: {e}")
+        
             
-            display_submenu(submenu_title, submenu_options, submenu_functions)
-        else:
-            print("Invalid option. Please select a valid option (1-2) or 'b' to go back to the previous menu.")
+                while True:#option to fo to American menu or end the program
+                    return_or_end = input("\nDo you want to go back to the previous menu (menu) or end the program (end)? ")
+                    if return_or_end == 'menu':
+                        break
+                    elif return_or_end == 'end':
+                        exit()
+                    else:
+                        print("Invalid input. Please enter 'menu' or 'end'.")
 
-if __name__ == "__main__":
-    main_menu = {
-        '1': {
-            'title': 'American',
-            'submenu': {
-                '1': 'CheeseBurgers with fries',
-                '2': 'HotDogs with chili',
-                '3': 'Steak with mashed potatoes',
-                '4': 'Lemon Pepper Wings with waffle fries',
-                '5': 'Chicken fried Steak',
-            }
-        },
-        
-        '2': {
-            'title': 'Tex-Mex',
-            'submenu': {
-                '6': 'Baja shrimp tacos',
-                '7': 'Classic Fajita beef burrito',
-                '8': 'Ground Beef nachos',
-                '9': 'chimichanga',
-                '10': 'Fajita chicken plate with rice/beans',
-            }
-        },
-        '3': {
-            'title': 'Italian',
-            'submenu': {
-                '1': 'Pepperoni Pizza',
-                '2': 'Spaghetti and Meatballs',
-                '3': 'Lasagna',
-                '4': 'Chicken Alfredo',
-                '5': 'Chicken Tortelini',
-            }
-        },
-        '4': {
-            'title': 'Asian',
-            'submenu': {
-                '1': 'Sushi:California roll',
-                '2': 'Stir Fry',
-                '3': 'Chop Suey',
-                '4': 'Shrimp fried rice',
-                '5': '(Chicken/Vegan)(fried/steamed) Dumplings ',
-            }
-        },
-        '5': {
-            'title': 'Suprise Me',
-            'submenu': {
-                '1': 'Cajun chicken pasta',
-                '2': 'Pumpkin Bread',
-                '3': 'Japanese Fluffy pancakes',
-                '4': 'Mango Lassi',
-                '5': 'Butter Chicken',
-            }
-        },
-        
-    }
+            elif americanSelection == '2':#hotdog w chili
+                print("\n")
+                file_name = 'file1.txt'
+                try:
+                    with open(file_name, 'r') as file:
+                        lines = file.readlines()
+                #prints lines 45-94        
+                        for line in lines[49:94]:
+                            print(line.strip())
+                except FileNotFoundError:
+                    print(f"file '{file_name}' not found.")
+                except Exception as e:
+                    print(f"An error has occured: {e}")
+                
+                while True:
+                    return_or_end = input("\nDo you want to go back to the previous menu (menu) or end the program (end)? ")
+                    if return_or_end == 'menu':
+                        break
+                    elif return_or_end == 'end':
+                        exit()
+                    else:
+                        print("Invalid input. Please enter 'menu' or 'end'.")                
+                
+            elif americanSelection == '3':#Steak w/ mashed potatoes
+                print("\n")
+                file_name = 'file1.txt'
+                try:
+                    with open(file_name, 'r') as file:
+                        lines = file.readlines()
+                        #lines 97-148
+                        for line in lines[97:148]:
+                            print(line.strip())
+                except FileNotFoundError:
+                    print(f"file '{file_name}' not found ")
+                except Exception as e:
+                    print(f"an error has occured: {e}")
+                #ADD CODE SO THAT IT ASKS TO SELECT ANOTHER OPTION OR QUIT PROGRAM
+                
+                
+                
+                
+                
+                
+                
+            elif americanSelection == '4':
+                print("Lemon Pepper Wings with waffle fries")
+                # Your code for making Lemon Pepper Wings with waffle fries goes here
+            elif americanSelection == '5':
+                print("Chicken fried Steak")
+                # Your code for making Chicken fried Steak goes here
+            elif americanSelection == '6':
+                break  # Go back to the previous menu
+            
+            else:
+                print("Unknown Option Selected in American Menu!Please select one of the following\n")
 
-    display_menu(main_menu)
+#work on this code once you get the top part running how you like it        
+    elif selection == '2':                                          #Tex Mex menu selected 
+        print("\nTex-Mex")
+        # Your code for deleting a student goes here
+    elif selection == '3':                                          #Italian menu selected
+        print("\nItalian")
+        # Your code for finding a student goes here
+    elif selection == '4':                                          #Asian menu selected 
+        print("\nAsian")
+    elif selection == '5':                                          #suprise menu selected 
+        print("\nSurprise me")
+        
+    elif selection == 'quit':#ends the program
+        break
+    else:
+        print("Unknown Option Selected!")
+
