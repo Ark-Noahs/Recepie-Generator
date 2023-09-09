@@ -1,7 +1,6 @@
 
 
-
-
+#update 09/08
 
 
 def submenu_option_1():             #1-47
@@ -30,9 +29,9 @@ def submenu_option_4():         #146-203
 def submenu_option_5():         #206-258
     print("You selected Chicken fried Steak")
 
-def submenu_option_6():                         #continue here 
-    print("You selected tacos")
-    file_name = 'file1.txt' 
+def submenu_option_6():                          
+    print("You selected Baja shrimp tacos")
+    file_name = 'file2.txt' 
     try:
         with open(file_name, 'r') as file:
             lines = file.readlines()
@@ -45,18 +44,18 @@ def submenu_option_6():                         #continue here
         print(f"An error occurred: {e}")
 
 def submenu_option_7():
-    print("You selected burriot")
+    print("You selected Classic Tex-Mex burriot")
 
 def submenu_option_8():
-    print("You selected nachos")
+    print("You selected Ground Beef nachos")
     # Add your code here for Sub-option 1.8
 
 def submenu_option_9():
-    print("You selected chimichangas")
+    print("You selected spricy pork Chimichanga")
     # Add your code here for Sub-option 1.9
 
 def submenu_option_10():
-    print("You selected jajita chicken/beef plate")
+    print("You selected Fajita chicken plate with rice/beans")
     # Add your code here for Sub-option 1.10
 
 def submenu_option_11():
@@ -68,11 +67,11 @@ def submenu_option_12():
     # Add your code here for Sub-option 1.12
 
 def submenu_option_13():
-    print("You selected Lazonia")
+    print("You selected Lasagna")
     # Add your code here for Sub-option 1.13
 
 def submenu_option_14():
-    print("You selected chicken alfedo")
+    print("You selected Chicken Alfedo")
     # Add your code here for Sub-option 1.14
 
 def submenu_option_15():
@@ -207,11 +206,11 @@ if __name__ == "__main__":
         '2': {
             'title': 'Tex-Mex',
             'submenu': {
-                '6': 'taco',
-                '7': 'burrito',
-                '8': 'nachos',
+                '6': 'Baja shrimp tacos',
+                '7': 'Classic Fajita beef burrito',
+                '8': 'Ground Beef nachos',
                 '9': 'chimichanga',
-                '10': 'fajita chicken/beef plate',
+                '10': 'Fajita chicken plate with rice/beans',
             }
         },
         '3': {
@@ -219,7 +218,7 @@ if __name__ == "__main__":
             'submenu': {
                 '1': 'Pepperoni Pizza',
                 '2': 'Spaghetti and Meatballs',
-                '3': 'Lazonia',
+                '3': 'Lasagna',
                 '4': 'Chicken Alfredo',
                 '5': 'Chicken Tortelini',
             }
@@ -248,6 +247,3 @@ if __name__ == "__main__":
     }
 
     display_menu(main_menu)
-
-
-
