@@ -96,7 +96,8 @@ Lets start cooking!
 
 
 
-ingredients                          # steak with mashed potatos
+You selected to make steak with mashed potatos!
+ingredients                          
 =====================================
 -----------for the steak-------------
 1.one or more boneless steaks (your choice of cut, such as ribeye, sirloin, or filet mignon)
@@ -147,7 +148,8 @@ Plate the mashed potatoes alongside the cooked steaks. You can garnish the potat
 
 
 
-ingredients                      # lemon pepper wings w waffle fries
+You selected to make lemon pepper wings w waffle fries!
+ingredients                      
 =====================================
 --------for the wings---------------
 1. 2 pounds of chicken wings (about 20-24 pieces)
@@ -207,7 +209,9 @@ Lets start cooking!
     You can also sprinkle some additional lemon pepper seasoning on the fries for extra flavor.
 
 
-ingredients                         # chicken fried steak
+
+You selected to make chicken fried steak!
+ingredients                         
 =====================================
 ------------for the steak------------
 4 cube steaks (tenderized round or sirloin steaks)
@@ -264,7 +268,9 @@ Lets start cooking!
 
 
 
-ingredients                          # Baja shrimp tacos
+
+you selected to make Baja Shrimp tacos!
+ingredients                          
 =====================================
 -----------For the Shrimp------------
 1 pound large shrimp, peeled and deveined
@@ -321,7 +327,9 @@ Lets start cooking!
 
 
 
-Ingredients                     #classic fajita beef burrito
+
+You selected to cook a Classic Fajita Beef Burrito!
+Ingredients                     
 =====================================
 ----------Fajita Beef---------------
 1 pound of skirt steak or flank steak
@@ -383,7 +391,10 @@ Lets start cooking!
 
 
 
-Ingredients                         #ground beef nachos
+
+
+you selected to cook Ground Beef Nachos!
+Ingredients                         
 =====================================
 -------For the Ground Beef-----------
 1 pound of lean ground beef
@@ -434,7 +445,11 @@ Lets start cooking!
 
 
 
-Ingredients                         #spicy pork chimichanga
+
+
+
+you selected to cook a Spicy Pork Chimichanga!
+Ingredients                     
 =====================================
 -----------Spicy Pork----------------
 1 pound of pork loin or pork shoulder, thinly sliced or shredded
@@ -490,7 +505,10 @@ Lets start cooking!
     sliced green onions, salsa, and chopped fresh cilantro (if desired)
 
 
-ingredients                         #fajita chicken plate w rice and beans   
+
+
+you selected to make a Fajita Chicken plate with rice and beans!
+ingredients                    
 =====================================
 ----------Fajita Chicken-------------
 2 boneless, skinless chicken breasts
@@ -560,7 +578,11 @@ Lets start cooking!
 
 
 
-Ingredients                             #pepperoni pizza
+
+
+
+You selected to bake a Pepperoni Pizza!
+Ingredients                         
 =====================================
 ----------Pizza Dough----------------
 1 pound (16 ounces) of pizza dough (store-bought or homemade)
@@ -610,7 +632,9 @@ Slice and Serve: Use a pizza cutter or a sharp knife to slice the pizza into wed
 
 
 
-Ingredients:                            #spaghetti and meatballs
+
+You selected to cook Spaghetti and Meatballs!
+Ingredients:                        
 =====================================
 ----------the Meatballs--------------
 1 pound (16 ounces) ground beef (or a mixture of beef and pork)
@@ -674,8 +698,9 @@ Lets start cooking!
 
 
 
-                
-Ingredients                              #Lasagna 
+
+You selected to bake a Lasagna! 
+Ingredients     
 =====================================
 ------------the Sauce----------------
 1 pound (16 ounces) ground beef
@@ -736,6 +761,10 @@ Lets start cooking!
 4.Remove the lasagna from the oven and let it rest for about 10 minutes before slicing and serving.
 
 
+
+
+
+you selected to make Chicken Alfredo!
 Ingredients
 =====================================
 ----------the Chicken----------------
@@ -789,7 +818,10 @@ Lets start Cooking!
 
 
 
-Ingredients                                 #chicken tortellini 
+
+
+you selected to make Chicke Tortellini!
+Ingredients                                 
 =====================================
 ------------Chicken------------------
 2 boneless, skinless chicken breasts
@@ -848,8 +880,8 @@ Lets start Cooking!
 
 
 
-
-Ingredients                                #california roll
+you selected to make a California roll!
+Ingredients                               
 =====================================
 ----------Sushi Rice-----------------
 1 cup sushi rice
@@ -897,10 +929,13 @@ Lets start Cooking!
     -Using a sharp knife dipped in water, slice the roll into bite-sized pieces. Clean the knife between cuts to keep the slices neat.
     -Arrange the California Roll slices on a plate.
     -Serve with soy sauce, pickled ginger, and wasabi.
+    
+    
+    
 
 
-
-Ingredients                                 #stir fry
+you selected to make Stir Fry!
+Ingredients                             
 =====================================
 -------Stir-Fry Sauce----------------
 3 tablespoons soy sauce
@@ -956,7 +991,9 @@ Lets start Cooking!
 
 
 
-Ingredients:                            #shrimp fried rice
+
+you selected to make Shrimp fried rice!
+Ingredients:                            
 =====================================
 1 cup long-grain white rice (cooked and cooled)
 2 tablespoons vegetable oil (divided)
@@ -1001,7 +1038,9 @@ Lets start Cooking!
 
 
 
-Ingredients:                    #Vegan steamed Dumplings
+
+you selected to make Vegan steamed Dumplings!
+Ingredients:                    
 =====================================
 ---------Dumpling Filling------------
 1 cup finely chopped napa cabbage
@@ -1057,7 +1096,75 @@ Remove the filling from the heat and allow it to cool.
 
 
 
-Ingredients                     #cajunn chicken pasta 
+you selected to make Pho Ga Nuong!
+Ingredients                     
+=====================================
+-----------the Chicken---------------
+2 boneless, skinless chicken breasts
+2 tablespoons of soy sauce
+2 tablespoons of fish sauce
+2 cloves of garlic, minced
+1 tablespoon of sugar
+1 teaspoon of black pepper
+1 teaspoon of vegetable oil
+---------the Pho Broth---------------
+8 cups of chicken broth (homemade or store-bought)
+1 onion, peeled and halved
+2-3 slices of fresh ginger
+2-3 star anise pods
+2-3 cloves
+1 cinnamon stick
+1 cardamom pod (optional)
+1 teaspoon of coriander seeds (optional)
+1 teaspoon of fennel seeds (optional)
+Salt and sugar to taste
+
+--------Noodles and Garnishes---------
+8 ounces of dried rice noodles (Pho noodles)
+Fresh herbs such as cilantro, Thai basil, and mint
+Bean sprouts
+Lime wedges
+Sliced chili peppers (optional)
+Hoisin sauce and Sriracha sauce (optional, for serving)
+
+
+Lets start Cooking!
+=====================================
+1.Marinate the Chicken:
+    -In a bowl, combine the soy sauce, fish sauce, minced garlic, sugar, black pepper, and vegetable oil. Mix well.
+    -Place the chicken breasts in a resealable plastic bag or shallow dish, and pour the marinade over them.
+    -Seal the bag or cover the dish and refrigerate for at least 30 minutes to allow the chicken to marinate.
+2.Preheat the Grill:
+    -Preheat your grill to medium-high heat.
+3.Grill the Chicken:
+    -Remove the chicken from the marinade and grill it for about 5-7 minutes per side, 
+        or until the chicken is fully cooked and has nice grill marks.
+    -Once cooked, remove the chicken from the grill and let it rest for a few minutes. Then, slice it thinly.
+4.Prepare the Pho Broth:
+    -In a large pot, add the chicken broth, onion, ginger, star anise, cloves, cinnamon stick, and
+        any optional spices (cardamom, coriander seeds, and fennel seeds).
+    -Bring the broth to a simmer and let it cook for about 30-45 minutes to infuse the flavors.
+    -Season the broth with salt and sugar to taste.
+5.Prepare the Rice Noodles:
+    -Cook the rice noodles according to the package instructions. Usually, 
+        you'll need to soak them in hot water for a few minutes until they are tender but
+        still slightly chewy. Drain and set aside.
+6.Assemble the Pho Bowls:
+    -Divide the cooked rice noodles among serving bowls.
+    -Arrange the sliced grilled chicken on top of the noodles.
+7.Strain and Serve:
+    -Strain the hot Pho broth over the chicken and noodles, making sure to remove all the spices and aromatics.
+    -Serve the Pho Ga Nuong hot, accompanied by a platter of fresh herbs, bean sprouts, lime wedges, and 
+        sliced chili peppers (if desired).
+    -You can also offer hoisin sauce and Sriracha sauce on the side for diners to customize their Pho according to their taste.
+
+
+
+
+
+you selected my person favorite, Cajun Chicken pasta!
+Get ready to for an amazing meal!
+Ingredients                  
 =====================================
 ---------Cajun Seasoning-------------
 1 1/2 teaspoons paprika
@@ -1113,7 +1220,8 @@ Instructions:
 
 
 
-Ingredients                 #pumpkin bread
+you selected to make Pumpkin Bread!
+Ingredients         
 =====================================
 1 3/4 cups (220g) all-purpose flour
 1 teaspoon baking soda
@@ -1167,7 +1275,8 @@ Lets start Cooking!
 
 
 
-Ingredients                                     #japanese fluffy pancakes
+you selected to make Japanese fluffy pancakes!
+Ingredients                                 
 =====================================
 2 large eggs, separated
 2/3 cup (160ml) milk
@@ -1222,8 +1331,8 @@ Lets start Cooking!
 
 
 
-
-Ingredients                             #mango Lassi
+you selected to make a Mango Lassi!
+Ingredients
 =====================================
 1 1/2 cups ripe mango, peeled, pitted, and diced (about 2 large mangoes)
 1 cup plain yogurt (preferably whole-milk yogurt)
@@ -1256,7 +1365,9 @@ Instructions
 
 
 
-Ingredients                         #butter chicken w rice
+
+you selected to make Butter Chicken with rice!
+Ingredients
 =====================================
 ------Butter Chicken-----------------
 For the Marinade:
@@ -1317,29 +1428,4 @@ Lets start Cooking!
         reduce the heat to low.
     -Simmer for 15-20 minutes or until the rice is tender and the water is absorbed. Remove from heat and 
         let it sit, covered, for 5 minutes. Fluff the rice with a fork.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
